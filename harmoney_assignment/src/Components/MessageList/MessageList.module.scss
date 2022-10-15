@@ -1,0 +1,38 @@
+.page_header{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.input_group{
+  display: flex;
+  .input_control{
+    width: 300px;
+    margin-right: 15px;
+  }
+  .post{
+    margin-right: 15px !important;
+  }
+}
+
+.header_group{
+  margin: 10px;
+  display: flex;
+  .message_btn{
+    height: 15px;
+    margin-right: 5px;
+  }
+ .heading{
+   margin-right: 15px;
+ }
+  .time{
+    margin-right: 15px;
+    color: #989494;
+  }
+  .delete_btn{
+    height: 30px;
+  }
+}
+
+.text{
+text-align: start;
+}
